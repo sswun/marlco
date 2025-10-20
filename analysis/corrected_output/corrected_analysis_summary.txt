@@ -1,0 +1,103 @@
+CORRECTED MARL ALGORITHM ANALYSIS REPORT
+======================================================================
+
+CORRECTIONS AND IMPROVEMENTS:
+-----------------------------------
+1. ✅ Fixed title positioning - Added proper padding to prevent cutoff
+2. ✅ Improved learning curves - Replaced raw data with running statistics
+3. ✅ Enhanced performance comparison - Added environment-wise normalization
+4. ✅ Better visualization - Added confidence intervals and stability indicators
+5. ✅ Larger figure sizes - Improved readability and detail visibility
+
+ANALYSIS OVERVIEW:
+-------------------------
+Algorithms analyzed: 6
+Environments: 9
+Total algorithm-environment pairs: 54
+
+ALGORITHM PERFORMANCE SUMMARY:
+-----------------------------------
+
+MAPPO (Normalized Score: 0.778):
+  Final Performance: 22.96 ± 88.86
+  Training Stability: 0.570 ± 0.253
+  Sample Efficiency: 0.500 ± 0.000
+  Convergence Episodes: 570 ± 1458
+
+IQL (Normalized Score: 0.645):
+  Final Performance: 1.48 ± 58.22
+  Training Stability: 0.573 ± 0.256
+  Sample Efficiency: 0.500 ± 0.000
+  Convergence Episodes: 657 ± 1153
+
+COMA (Normalized Score: 0.510):
+  Final Performance: 9.44 ± 61.04
+  Training Stability: 0.537 ± 0.311
+  Sample Efficiency: 0.500 ± 0.000
+  Convergence Episodes: 766 ± 1319
+
+QMIX (Normalized Score: 0.508):
+  Final Performance: -37.39 ± 122.37
+  Training Stability: 0.567 ± 0.319
+  Sample Efficiency: 0.500 ± 0.000
+  Convergence Episodes: 357 ± 925
+
+VDN (Normalized Score: 0.374):
+  Final Performance: -30.98 ± 118.50
+  Training Stability: 0.698 ± 0.252
+  Sample Efficiency: 0.500 ± 0.000
+  Convergence Episodes: 212 ± 486
+
+MADDPG (Normalized Score: 0.211):
+  Final Performance: -39.08 ± 100.37
+  Training Stability: 0.648 ± 0.254
+  Sample Efficiency: 0.500 ± 0.000
+  Convergence Episodes: 179 ± 473
+
+
+PERFORMANCE RECOMMENDATIONS (Based on Normalized Scores):
+------------------------------------------------------------
+Best Overall Algorithm (Normalized Performance):
+  1. MAPPO (Normalized Score: 0.778)
+  2. IQL (Normalized Score: 0.645)
+  3. COMA (Normalized Score: 0.510)
+
+Best Pure Performance: MAPPO (Score: 22.96)
+Most Stable Training: VDN (Score: 0.698)
+
+
+VISUALIZATION IMPROVEMENTS:
+-----------------------------------
+1. Corrected Learning Curves:
+   - Removed raw data overlay for cleaner visualization
+   - Added running mean with confidence intervals
+   - Included stability indicators
+   - Fixed title positioning with proper padding
+   - Increased figure size for better visibility
+
+2. Normalized Performance Comparison:
+   - Each environment normalized independently
+   - Shows relative ranking within each environment
+   - Easier to compare algorithm consistency
+   - Fixed legend positioning
+
+3. Enhanced Heatmap:
+   - Added performance rankings within each environment
+   - Color-coded performance visualization
+   - Clear value and rank annotations
+
+4. Distribution Analysis:
+   - Box plots showing performance distribution
+   - Coefficient of variation for consistency
+   - Performance range analysis
+
+GENERATED VISUALIZATIONS:
+------------------------------
+1. Corrected Learning Curves (per environment)
+2. Normalized Performance Comparison Chart
+3. Enhanced Performance Heatmap
+4. Performance Distribution Analysis
+
+
+All plots saved to: /mnt/j/files/A_projects_extension/code_python_mulitiagent/MARL/analysis/corrected_output
+Log file: corrected_analysis.log

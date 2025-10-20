@@ -1,0 +1,31 @@
+# QMIX 训练配置
+env:
+  name: "CM"                    # 环境名称: DEM, HRG, MSFS, CM, SMAC
+  difficulty: "hard"           # 难度/地图: 
+                                  # DEM/HRG/MSFS/CM: easy, normal, hard
+                                  # SMAC: 地图名 (8m, 3s5z, MMM) 或 easy/normal/hard
+  global_state_type: "concat"    # 全局状态类型: concat, mean, max, attention
+
+algorithm:
+  gamma: 0.99                    # 折扣因子
+  learning_rate: 0.001          # 学习率
+  tau: 0.005                     # 目标网络软更新系数
+  target_update_interval: 50    # 目标网络硬更新间隔
+  max_grad_norm: 10.0           # 梯度裁剪
+
+model:
+  hidden_dim: 256                 # 个体网络隐藏层维度
+  mixing_hidden_dim: 512          # 混合网络隐藏层维度
+
+training:
+  total_episodes: 5000          # 总训练episodes
+  batch_size: 64                # 批处理大小
+  buffer_size: 100             # 经验回放缓冲区大小
+  warmup_episodes: 50         # 预热episodes
+  eval_interval: 100           # 评估间隔
+  save_interval: 500           # 保存间隔
+
+exploration:
+  epsilon_start: 0.3            # 初始探索率
+  epsilon_end: 0.1             # 最终探索率
+  epsilon_decay: 0.995          # 探索率衰减

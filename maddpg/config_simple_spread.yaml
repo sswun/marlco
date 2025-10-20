@@ -1,0 +1,30 @@
+# MADDPG 训练配置 - Simple Spread环境
+env:
+  name: "simple_spread"        # 环境名称: multiwalker, simple_spread, simple_crypto
+  difficulty: "default"        # PettingZoo环境使用default
+  global_state_type: "concat"  # 全局状态类型: concat, mean, max, attention
+
+algorithm:
+  gamma: 0.99                    # 折扣因子
+  actor_lr: 0.001               # Actor学习率
+  critic_lr: 0.001              # Critic学习率
+  tau: 0.005                     # 目标网络软更新系数
+  max_grad_norm: 10.0           # 梯度裁剪
+
+model:
+  actor_hidden_dim: 256          # Actor网络隐藏层维度
+  critic_hidden_dim: 512         # Critic网络隐藏层维度
+
+training:
+  total_episodes: 5000         # 总训练episodes (Simple Spread较简单，需要较少episodes)
+  batch_size: 64               # 批处理大小
+  buffer_size: 100            # 经验回放缓冲区大小
+  warmup_episodes: 50        # 预热episodes
+  eval_interval: 100          # 评估间隔
+  save_interval: 500          # 保存间隔
+
+exploration:
+  noise_type: "gaussian"        # 噪声类型: gaussian, ou
+  noise_scale: 0.3             # 噪声标准差
+  noise_decay: 0.995           # 噪声衰减率
+  noise_min: 0.1              # 最小噪声

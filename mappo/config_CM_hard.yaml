@@ -1,0 +1,38 @@
+# MAPPO 训练配置
+env:
+  name: "CM"                    # 环境名称: DEM, HRG, MSFS, CM, SMAC
+  difficulty: "hard"           # 难度/地图: 
+                                  # DEM/HRG/MSFS/CM: easy, normal, hard
+                                  # SMAC: 地图名 (8m, 3s5z, MMM) 或 easy/normal/hard
+  global_state_type: "concat"    # 全局状态类型: concat, mean, max, attention
+
+algorithm:
+  gamma: 0.99                    # 折扣因子
+  actor_lr: 0.0003              # Actor学习率
+  critic_lr: 0.001              # Critic学习率
+  gae_lambda: 0.95              # GAE lambda参数
+  clip_param: 0.2               # PPO裁剪参数
+  value_loss_coef: 0.5          # 价值函数损失系数
+  entropy_coef: 0.01            # 熵正则化系数
+  max_grad_norm: 10.0           # 梯度裁剪
+  ppo_epochs: 4                 # PPO更新轮数
+  num_mini_batch: 1             # mini-batch数量
+
+model:
+  actor_hidden_dim: 256          # Actor网络隐藏层维度
+  critic_hidden_dim: 512         # Critic网络隐藏层维度
+  use_feature_normalization: false  # 是否使用特征归一化
+  use_orthogonal_init: true     # 是否使用正交初始化
+
+training:
+  total_episodes: 5000          # 总训练episodes
+  n_rollout_threads: 1          # 并行环境数量
+  episode_length: 200           # 每个episode最大长度
+  buffer_size: 200              # 回放缓冲区大小（每个线程）
+  warmup_episodes: 50          # 预热episodes
+  eval_interval: 100            # 评估间隔
+  save_interval: 500            # 保存间隔
+  use_recurrent_policy: false   # 是否使用循环策略
+
+exploration:
+  use_linear_lr_decay: false    # 是否使用线性学习率衰减

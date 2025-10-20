@@ -1,0 +1,46 @@
+# MARL Environment Requirements (without SMAC)
+# Compatible with Ubuntu and Python 3.8+
+
+# Core numerical computing
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Machine learning framework (PyTorch)
+# CPU version - for systems without CUDA support
+torch>=2.0.0
+torchvision>=0.15.0
+
+# If you have CUDA support, replace the above with:
+# torch>=2.0.0+cu118
+# torchvision>=0.15.0+cu118
+# Or install with: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# Visualization and plotting
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Game engine and rendering
+pygame>=2.1.0
+
+# Reinforcement learning environment interface
+gymnasium>=0.26.0
+
+# Progress bars and utilities
+tqdm>=4.64.0
+
+# Configuration management
+pyyaml>=6.0
+
+# Logging and debugging
+colorlog>=6.7.0
+
+# Optional: For enhanced visualization (not required but recommended)
+# opencv-python>=4.5.0
+# pillow>=8.3.0
+
+# Development and testing (optional)
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
+
+# Note: This requirements.txt excludes SMAC dependencies.
+# If you need to use the SMAC environment, use requirements_with_smac.txt instead.

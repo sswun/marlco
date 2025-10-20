@@ -1,0 +1,444 @@
+2025-10-20 10:55:26,213 - __main__ - INFO - Starting complete corrected analysis...
+2025-10-20 10:55:26,213 - __main__ - INFO - Loading training data...
+2025-10-20 10:55:26,229 - data_loader - INFO - Loaded 5000 episodes for QMIX - CM_hard from CM_hard_training_data_20251018_161900.json
+2025-10-20 10:55:26,245 - data_loader - INFO - Loaded 5000 episodes for QMIX - DEM_hard from DEM_hard_training_data_20251018_163812.json
+2025-10-20 10:55:26,259 - data_loader - INFO - Loaded 5000 episodes for QMIX - DEM_normal from DEM_normal_training_data_20251018_164956.json
+2025-10-20 10:55:26,272 - data_loader - INFO - Loaded 5000 episodes for QMIX - HRG_ultrafast from HRG_ultra_fast_training_data_20251018_171142.json
+2025-10-20 10:55:26,284 - data_loader - INFO - Loaded 5000 episodes for QMIX - MSFS_hard from MSFS_hard_training_data_20251018_172447.json
+2025-10-20 10:55:26,310 - data_loader - INFO - Loaded 5000 episodes for QMIX - MSFS_normal from MSFS_normal_training_data_20251018_173637.json
+2025-10-20 10:55:26,325 - data_loader - INFO - Loaded 5000 episodes for QMIX - multiwalker from multiwalker_default_training_data_20251018_175918.json
+2025-10-20 10:55:26,339 - data_loader - INFO - Loaded 500 episodes for QMIX - simple_crypto from simple_crypto_default_training_data_20251018_182918.json
+2025-10-20 10:55:26,354 - data_loader - INFO - Loaded 5000 episodes for QMIX - simple_spread from simple_spread_default_training_data_20251018_184342.json
+2025-10-20 10:55:26,373 - data_loader - INFO - Loaded 5000 episodes for IQL - CM_hard from CM_hard_training_data_20251017_171440.json
+2025-10-20 10:55:26,386 - data_loader - INFO - Loaded 5000 episodes for IQL - DEM_hard from DEM_hard_training_data_20251017_172729.json
+2025-10-20 10:55:26,401 - data_loader - INFO - Loaded 5000 episodes for IQL - DEM_normal from DEM_normal_training_data_20251017_174056.json
+2025-10-20 10:55:26,416 - data_loader - INFO - Loaded 5000 episodes for IQL - HRG_ultrafast from HRG_ultra_fast_training_data_20251017_175615.json
+2025-10-20 10:55:26,434 - data_loader - INFO - Loaded 5000 episodes for IQL - MSFS_hard from MSFS_hard_training_data_20251017_180607.json
+2025-10-20 10:55:26,453 - data_loader - INFO - Loaded 5000 episodes for IQL - MSFS_normal from MSFS_normal_training_data_20251017_200054.json
+2025-10-20 10:55:26,484 - data_loader - INFO - Loaded 5000 episodes for IQL - multiwalker from multiwalker_default_training_data_20251017_203204.json
+2025-10-20 10:55:26,496 - data_loader - INFO - Loaded 500 episodes for IQL - simple_crypto from simple_crypto_default_training_data_20251017_203524.json
+2025-10-20 10:55:26,509 - data_loader - INFO - Loaded 5000 episodes for IQL - simple_spread from simple_spread_default_training_data_20251017_204254.json
+2025-10-20 10:55:26,522 - data_loader - INFO - Loaded 5000 episodes for VDN - CM_hard from CM_hard_training_data_20251018_003101.json
+2025-10-20 10:55:26,544 - data_loader - INFO - Loaded 5000 episodes for VDN - DEM_hard from DEM_hard_training_data_20251018_004455.json
+2025-10-20 10:55:26,557 - data_loader - INFO - Loaded 5000 episodes for VDN - DEM_normal from DEM_normal_training_data_20251018_010636.json
+2025-10-20 10:55:26,570 - data_loader - INFO - Loaded 5000 episodes for VDN - HRG_ultrafast from HRG_ultra_fast_training_data_20251018_103744.json
+2025-10-20 10:55:26,587 - data_loader - INFO - Loaded 5000 episodes for VDN - MSFS_hard from MSFS_hard_training_data_20251018_104635.json
+2025-10-20 10:55:26,602 - data_loader - INFO - Loaded 5000 episodes for VDN - MSFS_normal from MSFS_normal_training_data_20251018_105525.json
+2025-10-20 10:55:26,616 - data_loader - INFO - Loaded 5000 episodes for VDN - multiwalker from multiwalker_default_training_data_20251018_111502.json
+2025-10-20 10:55:26,624 - data_loader - INFO - Loaded 500 episodes for VDN - simple_crypto from simple_crypto_default_training_data_20251018_114433.json
+2025-10-20 10:55:26,639 - data_loader - INFO - Loaded 5000 episodes for VDN - simple_spread from simple_spread_default_training_data_20251018_115504.json
+2025-10-20 10:55:26,695 - data_loader - INFO - Loaded 5000 episodes for COMA - CM_hard from CM_hard_training_data_20251018_133914.json
+2025-10-20 10:55:26,766 - data_loader - INFO - Loaded 5000 episodes for COMA - DEM_hard from DEM_hard_training_data_20251018_135601.json
+2025-10-20 10:55:26,843 - data_loader - INFO - Loaded 5000 episodes for COMA - DEM_normal from DEM_normal_training_data_20251018_141302.json
+2025-10-20 10:55:26,892 - data_loader - INFO - Loaded 5000 episodes for COMA - HRG_ultrafast from HRG_ultra_fast_training_data_20251018_142532.json
+2025-10-20 10:55:26,946 - data_loader - INFO - Loaded 5000 episodes for COMA - MSFS_hard from MSFS_hard_training_data_20251018_143934.json
+2025-10-20 10:55:26,984 - data_loader - INFO - Loaded 5000 episodes for COMA - MSFS_normal from MSFS_normal_training_data_20251018_145147.json
+2025-10-20 10:55:27,013 - data_loader - INFO - Loaded 5000 episodes for COMA - multiwalker from multiwalker_default_training_data_20251018_180115.json
+2025-10-20 10:55:27,030 - data_loader - INFO - Loaded 500 episodes for COMA - simple_crypto from simple_crypto_default_training_data_20251018_182859.json
+2025-10-20 10:55:27,062 - data_loader - INFO - Loaded 5000 episodes for COMA - simple_spread from simple_spread_default_training_data_20251018_184242.json
+2025-10-20 10:55:27,077 - data_loader - INFO - Loaded 5000 episodes for MADDPG - CM_hard from CM_hard_training_data_20251018_232123.json
+2025-10-20 10:55:27,093 - data_loader - INFO - Loaded 5000 episodes for MADDPG - DEM_hard from DEM_hard_training_data_20251018_233808.json
+2025-10-20 10:55:27,110 - data_loader - INFO - Loaded 5000 episodes for MADDPG - DEM_normal from DEM_normal_training_data_20251019_000821.json
+2025-10-20 10:55:27,125 - data_loader - INFO - Loaded 5000 episodes for MADDPG - HRG_ultrafast from HRG_ultra_fast_training_data_20251019_002802.json
+2025-10-20 10:55:27,141 - data_loader - INFO - Loaded 5000 episodes for MADDPG - MSFS_hard from MSFS_hard_training_data_20251019_011030.json
+2025-10-20 10:55:27,157 - data_loader - INFO - Loaded 5000 episodes for MADDPG - MSFS_normal from MSFS_normal_training_data_20251019_013845.json
+2025-10-20 10:55:27,185 - data_loader - INFO - Loaded 5000 episodes for MADDPG - multiwalker from multiwalker_default_training_data_20251019_105158.json
+2025-10-20 10:55:27,206 - data_loader - INFO - Loaded 500 episodes for MADDPG - simple_crypto from simple_crypto_default_training_data_20251019_110116.json
+2025-10-20 10:55:27,223 - data_loader - INFO - Loaded 5000 episodes for MADDPG - simple_spread from simple_spread_default_training_data_20251019_111404.json
+2025-10-20 10:55:27,239 - data_loader - INFO - Loaded 5000 episodes for MAPPO - CM_hard from CM_hard_training_data_20251019_003218.json
+2025-10-20 10:55:27,255 - data_loader - INFO - Loaded 5000 episodes for MAPPO - DEM_hard from DEM_hard_training_data_20251019_011802.json
+2025-10-20 10:55:27,270 - data_loader - INFO - Loaded 5000 episodes for MAPPO - DEM_normal from DEM_normal_training_data_20251019_014202.json
+2025-10-20 10:55:27,285 - data_loader - INFO - Loaded 5000 episodes for MAPPO - HRG_ultrafast from HRG_ultra_fast_training_data_20251019_114843.json
+2025-10-20 10:55:27,302 - data_loader - INFO - Loaded 5000 episodes for MAPPO - MSFS_hard from MSFS_hard_training_data_20251019_121536.json
+2025-10-20 10:55:27,317 - data_loader - INFO - Loaded 5000 episodes for MAPPO - MSFS_normal from MSFS_normal_training_data_20251020_003859.json
+2025-10-20 10:55:27,334 - data_loader - INFO - Loaded 5000 episodes for MAPPO - multiwalker from multiwalker_default_training_data_20251020_012522.json
+2025-10-20 10:55:27,346 - data_loader - INFO - Loaded 500 episodes for MAPPO - simple_crypto from simple_crypto_default_training_data_20251020_013110.json
+2025-10-20 10:55:27,361 - data_loader - INFO - Loaded 5000 episodes for MAPPO - simple_spread from simple_spread_default_training_data_20251020_014521.json
+2025-10-20 10:55:27,361 - data_loader - INFO - 
+============================================================
+2025-10-20 10:55:27,362 - data_loader - INFO - Data Loading Summary
+2025-10-20 10:55:27,362 - data_loader - INFO - ============================================================
+2025-10-20 10:55:27,362 - data_loader - INFO - QMIX: 9 environments loaded
+2025-10-20 10:55:27,362 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 10:55:27,362 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 10:55:27,363 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 10:55:27,363 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 10:55:27,363 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 10:55:27,363 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 10:55:27,363 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 10:55:27,363 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 10:55:27,363 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 10:55:27,363 - data_loader - INFO - IQL: 9 environments loaded
+2025-10-20 10:55:27,363 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 10:55:27,364 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 10:55:27,364 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 10:55:27,364 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 10:55:27,364 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 10:55:27,364 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 10:55:27,364 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 10:55:27,364 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 10:55:27,364 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 10:55:27,364 - data_loader - INFO - VDN: 9 environments loaded
+2025-10-20 10:55:27,365 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 10:55:27,365 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 10:55:27,365 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 10:55:27,365 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 10:55:27,365 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 10:55:27,365 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 10:55:27,365 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 10:55:27,365 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 10:55:27,366 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 10:55:27,366 - data_loader - INFO - COMA: 9 environments loaded
+2025-10-20 10:55:27,366 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 10:55:27,366 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 10:55:27,366 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 10:55:27,366 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 10:55:27,366 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 10:55:27,367 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 10:55:27,367 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 10:55:27,367 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 10:55:27,367 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 10:55:27,367 - data_loader - INFO - MADDPG: 9 environments loaded
+2025-10-20 10:55:27,367 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 10:55:27,367 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 10:55:27,367 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 10:55:27,367 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 10:55:27,368 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 10:55:27,368 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 10:55:27,368 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 10:55:27,368 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 10:55:27,368 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 10:55:27,368 - data_loader - INFO - MAPPO: 9 environments loaded
+2025-10-20 10:55:27,368 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 10:55:27,368 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 10:55:27,369 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 10:55:27,369 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 10:55:27,369 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 10:55:27,369 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 10:55:27,369 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 10:55:27,369 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 10:55:27,369 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 10:55:27,369 - data_loader - INFO - ============================================================
+2025-10-20 10:55:27,370 - __main__ - INFO - Loaded data for 6 algorithms
+2025-10-20 10:55:27,370 - __main__ - INFO - Analyzing metrics...
+2025-10-20 10:55:27,451 - __main__ - INFO - Metric analysis complete
+2025-10-20 10:55:27,451 - __main__ - INFO - Generating corrected plots...
+2025-10-20 10:55:27,451 - __main__ - INFO - Generating corrected learning curves...
+2025-10-20 10:55:28,252 - __main__ - ERROR - Error generating corrected learning curves for CM_hard: keyword alpha is not recognized; valid keywords are ['size', 'width', 'color', 'tickdir', 'pad', 'labelsize', 'labelcolor', 'zorder', 'gridOn', 'tick1On', 'tick2On', 'label1On', 'label2On', 'length', 'direction', 'left', 'bottom', 'right', 'top', 'labelleft', 'labelbottom', 'labelright', 'labeltop', 'labelrotation', 'grid_agg_filter', 'grid_alpha', 'grid_animated', 'grid_antialiased', 'grid_clip_box', 'grid_clip_on', 'grid_clip_path', 'grid_color', 'grid_dash_capstyle', 'grid_dash_joinstyle', 'grid_dashes', 'grid_data', 'grid_drawstyle', 'grid_figure', 'grid_fillstyle', 'grid_gapcolor', 'grid_gid', 'grid_in_layout', 'grid_label', 'grid_linestyle', 'grid_linewidth', 'grid_marker', 'grid_markeredgecolor', 'grid_markeredgewidth', 'grid_markerfacecolor', 'grid_markerfacecoloralt', 'grid_markersize', 'grid_markevery', 'grid_mouseover', 'grid_path_effects', 'grid_picker', 'grid_pickradius', 'grid_rasterized', 'grid_sketch_params', 'grid_snap', 'grid_solid_capstyle', 'grid_solid_joinstyle', 'grid_transform', 'grid_url', 'grid_visible', 'grid_xdata', 'grid_ydata', 'grid_zorder', 'grid_aa', 'grid_c', 'grid_ds', 'grid_ls', 'grid_lw', 'grid_mec', 'grid_mew', 'grid_mfc', 'grid_mfcalt', 'grid_ms']
+2025-10-20 10:55:28,930 - __main__ - ERROR - Error generating corrected learning curves for DEM_hard: keyword alpha is not recognized; valid keywords are ['size', 'width', 'color', 'tickdir', 'pad', 'labelsize', 'labelcolor', 'zorder', 'gridOn', 'tick1On', 'tick2On', 'label1On', 'label2On', 'length', 'direction', 'left', 'bottom', 'right', 'top', 'labelleft', 'labelbottom', 'labelright', 'labeltop', 'labelrotation', 'grid_agg_filter', 'grid_alpha', 'grid_animated', 'grid_antialiased', 'grid_clip_box', 'grid_clip_on', 'grid_clip_path', 'grid_color', 'grid_dash_capstyle', 'grid_dash_joinstyle', 'grid_dashes', 'grid_data', 'grid_drawstyle', 'grid_figure', 'grid_fillstyle', 'grid_gapcolor', 'grid_gid', 'grid_in_layout', 'grid_label', 'grid_linestyle', 'grid_linewidth', 'grid_marker', 'grid_markeredgecolor', 'grid_markeredgewidth', 'grid_markerfacecolor', 'grid_markerfacecoloralt', 'grid_markersize', 'grid_markevery', 'grid_mouseover', 'grid_path_effects', 'grid_picker', 'grid_pickradius', 'grid_rasterized', 'grid_sketch_params', 'grid_snap', 'grid_solid_capstyle', 'grid_solid_joinstyle', 'grid_transform', 'grid_url', 'grid_visible', 'grid_xdata', 'grid_ydata', 'grid_zorder', 'grid_aa', 'grid_c', 'grid_ds', 'grid_ls', 'grid_lw', 'grid_mec', 'grid_mew', 'grid_mfc', 'grid_mfcalt', 'grid_ms']
+2025-10-20 10:55:29,623 - __main__ - ERROR - Error generating corrected learning curves for DEM_normal: keyword alpha is not recognized; valid keywords are ['size', 'width', 'color', 'tickdir', 'pad', 'labelsize', 'labelcolor', 'zorder', 'gridOn', 'tick1On', 'tick2On', 'label1On', 'label2On', 'length', 'direction', 'left', 'bottom', 'right', 'top', 'labelleft', 'labelbottom', 'labelright', 'labeltop', 'labelrotation', 'grid_agg_filter', 'grid_alpha', 'grid_animated', 'grid_antialiased', 'grid_clip_box', 'grid_clip_on', 'grid_clip_path', 'grid_color', 'grid_dash_capstyle', 'grid_dash_joinstyle', 'grid_dashes', 'grid_data', 'grid_drawstyle', 'grid_figure', 'grid_fillstyle', 'grid_gapcolor', 'grid_gid', 'grid_in_layout', 'grid_label', 'grid_linestyle', 'grid_linewidth', 'grid_marker', 'grid_markeredgecolor', 'grid_markeredgewidth', 'grid_markerfacecolor', 'grid_markerfacecoloralt', 'grid_markersize', 'grid_markevery', 'grid_mouseover', 'grid_path_effects', 'grid_picker', 'grid_pickradius', 'grid_rasterized', 'grid_sketch_params', 'grid_snap', 'grid_solid_capstyle', 'grid_solid_joinstyle', 'grid_transform', 'grid_url', 'grid_visible', 'grid_xdata', 'grid_ydata', 'grid_zorder', 'grid_aa', 'grid_c', 'grid_ds', 'grid_ls', 'grid_lw', 'grid_mec', 'grid_mew', 'grid_mfc', 'grid_mfcalt', 'grid_ms']
+2025-10-20 10:55:30,363 - __main__ - ERROR - Error generating corrected learning curves for HRG_ultrafast: keyword alpha is not recognized; valid keywords are ['size', 'width', 'color', 'tickdir', 'pad', 'labelsize', 'labelcolor', 'zorder', 'gridOn', 'tick1On', 'tick2On', 'label1On', 'label2On', 'length', 'direction', 'left', 'bottom', 'right', 'top', 'labelleft', 'labelbottom', 'labelright', 'labeltop', 'labelrotation', 'grid_agg_filter', 'grid_alpha', 'grid_animated', 'grid_antialiased', 'grid_clip_box', 'grid_clip_on', 'grid_clip_path', 'grid_color', 'grid_dash_capstyle', 'grid_dash_joinstyle', 'grid_dashes', 'grid_data', 'grid_drawstyle', 'grid_figure', 'grid_fillstyle', 'grid_gapcolor', 'grid_gid', 'grid_in_layout', 'grid_label', 'grid_linestyle', 'grid_linewidth', 'grid_marker', 'grid_markeredgecolor', 'grid_markeredgewidth', 'grid_markerfacecolor', 'grid_markerfacecoloralt', 'grid_markersize', 'grid_markevery', 'grid_mouseover', 'grid_path_effects', 'grid_picker', 'grid_pickradius', 'grid_rasterized', 'grid_sketch_params', 'grid_snap', 'grid_solid_capstyle', 'grid_solid_joinstyle', 'grid_transform', 'grid_url', 'grid_visible', 'grid_xdata', 'grid_ydata', 'grid_zorder', 'grid_aa', 'grid_c', 'grid_ds', 'grid_ls', 'grid_lw', 'grid_mec', 'grid_mew', 'grid_mfc', 'grid_mfcalt', 'grid_ms']
+2025-10-20 10:55:31,062 - __main__ - ERROR - Error generating corrected learning curves for MSFS_hard: keyword alpha is not recognized; valid keywords are ['size', 'width', 'color', 'tickdir', 'pad', 'labelsize', 'labelcolor', 'zorder', 'gridOn', 'tick1On', 'tick2On', 'label1On', 'label2On', 'length', 'direction', 'left', 'bottom', 'right', 'top', 'labelleft', 'labelbottom', 'labelright', 'labeltop', 'labelrotation', 'grid_agg_filter', 'grid_alpha', 'grid_animated', 'grid_antialiased', 'grid_clip_box', 'grid_clip_on', 'grid_clip_path', 'grid_color', 'grid_dash_capstyle', 'grid_dash_joinstyle', 'grid_dashes', 'grid_data', 'grid_drawstyle', 'grid_figure', 'grid_fillstyle', 'grid_gapcolor', 'grid_gid', 'grid_in_layout', 'grid_label', 'grid_linestyle', 'grid_linewidth', 'grid_marker', 'grid_markeredgecolor', 'grid_markeredgewidth', 'grid_markerfacecolor', 'grid_markerfacecoloralt', 'grid_markersize', 'grid_markevery', 'grid_mouseover', 'grid_path_effects', 'grid_picker', 'grid_pickradius', 'grid_rasterized', 'grid_sketch_params', 'grid_snap', 'grid_solid_capstyle', 'grid_solid_joinstyle', 'grid_transform', 'grid_url', 'grid_visible', 'grid_xdata', 'grid_ydata', 'grid_zorder', 'grid_aa', 'grid_c', 'grid_ds', 'grid_ls', 'grid_lw', 'grid_mec', 'grid_mew', 'grid_mfc', 'grid_mfcalt', 'grid_ms']
+2025-10-20 10:55:31,811 - __main__ - ERROR - Error generating corrected learning curves for MSFS_normal: keyword alpha is not recognized; valid keywords are ['size', 'width', 'color', 'tickdir', 'pad', 'labelsize', 'labelcolor', 'zorder', 'gridOn', 'tick1On', 'tick2On', 'label1On', 'label2On', 'length', 'direction', 'left', 'bottom', 'right', 'top', 'labelleft', 'labelbottom', 'labelright', 'labeltop', 'labelrotation', 'grid_agg_filter', 'grid_alpha', 'grid_animated', 'grid_antialiased', 'grid_clip_box', 'grid_clip_on', 'grid_clip_path', 'grid_color', 'grid_dash_capstyle', 'grid_dash_joinstyle', 'grid_dashes', 'grid_data', 'grid_drawstyle', 'grid_figure', 'grid_fillstyle', 'grid_gapcolor', 'grid_gid', 'grid_in_layout', 'grid_label', 'grid_linestyle', 'grid_linewidth', 'grid_marker', 'grid_markeredgecolor', 'grid_markeredgewidth', 'grid_markerfacecolor', 'grid_markerfacecoloralt', 'grid_markersize', 'grid_markevery', 'grid_mouseover', 'grid_path_effects', 'grid_picker', 'grid_pickradius', 'grid_rasterized', 'grid_sketch_params', 'grid_snap', 'grid_solid_capstyle', 'grid_solid_joinstyle', 'grid_transform', 'grid_url', 'grid_visible', 'grid_xdata', 'grid_ydata', 'grid_zorder', 'grid_aa', 'grid_c', 'grid_ds', 'grid_ls', 'grid_lw', 'grid_mec', 'grid_mew', 'grid_mfc', 'grid_mfcalt', 'grid_ms']
+2025-10-20 10:55:32,499 - __main__ - ERROR - Error generating corrected learning curves for multiwalker: keyword alpha is not recognized; valid keywords are ['size', 'width', 'color', 'tickdir', 'pad', 'labelsize', 'labelcolor', 'zorder', 'gridOn', 'tick1On', 'tick2On', 'label1On', 'label2On', 'length', 'direction', 'left', 'bottom', 'right', 'top', 'labelleft', 'labelbottom', 'labelright', 'labeltop', 'labelrotation', 'grid_agg_filter', 'grid_alpha', 'grid_animated', 'grid_antialiased', 'grid_clip_box', 'grid_clip_on', 'grid_clip_path', 'grid_color', 'grid_dash_capstyle', 'grid_dash_joinstyle', 'grid_dashes', 'grid_data', 'grid_drawstyle', 'grid_figure', 'grid_fillstyle', 'grid_gapcolor', 'grid_gid', 'grid_in_layout', 'grid_label', 'grid_linestyle', 'grid_linewidth', 'grid_marker', 'grid_markeredgecolor', 'grid_markeredgewidth', 'grid_markerfacecolor', 'grid_markerfacecoloralt', 'grid_markersize', 'grid_markevery', 'grid_mouseover', 'grid_path_effects', 'grid_picker', 'grid_pickradius', 'grid_rasterized', 'grid_sketch_params', 'grid_snap', 'grid_solid_capstyle', 'grid_solid_joinstyle', 'grid_transform', 'grid_url', 'grid_visible', 'grid_xdata', 'grid_ydata', 'grid_zorder', 'grid_aa', 'grid_c', 'grid_ds', 'grid_ls', 'grid_lw', 'grid_mec', 'grid_mew', 'grid_mfc', 'grid_mfcalt', 'grid_ms']
+2025-10-20 10:55:32,594 - __main__ - ERROR - Error generating corrected learning curves for simple_crypto: keyword alpha is not recognized; valid keywords are ['size', 'width', 'color', 'tickdir', 'pad', 'labelsize', 'labelcolor', 'zorder', 'gridOn', 'tick1On', 'tick2On', 'label1On', 'label2On', 'length', 'direction', 'left', 'bottom', 'right', 'top', 'labelleft', 'labelbottom', 'labelright', 'labeltop', 'labelrotation', 'grid_agg_filter', 'grid_alpha', 'grid_animated', 'grid_antialiased', 'grid_clip_box', 'grid_clip_on', 'grid_clip_path', 'grid_color', 'grid_dash_capstyle', 'grid_dash_joinstyle', 'grid_dashes', 'grid_data', 'grid_drawstyle', 'grid_figure', 'grid_fillstyle', 'grid_gapcolor', 'grid_gid', 'grid_in_layout', 'grid_label', 'grid_linestyle', 'grid_linewidth', 'grid_marker', 'grid_markeredgecolor', 'grid_markeredgewidth', 'grid_markerfacecolor', 'grid_markerfacecoloralt', 'grid_markersize', 'grid_markevery', 'grid_mouseover', 'grid_path_effects', 'grid_picker', 'grid_pickradius', 'grid_rasterized', 'grid_sketch_params', 'grid_snap', 'grid_solid_capstyle', 'grid_solid_joinstyle', 'grid_transform', 'grid_url', 'grid_visible', 'grid_xdata', 'grid_ydata', 'grid_zorder', 'grid_aa', 'grid_c', 'grid_ds', 'grid_ls', 'grid_lw', 'grid_mec', 'grid_mew', 'grid_mfc', 'grid_mfcalt', 'grid_ms']
+2025-10-20 10:55:33,294 - __main__ - ERROR - Error generating corrected learning curves for simple_spread: keyword alpha is not recognized; valid keywords are ['size', 'width', 'color', 'tickdir', 'pad', 'labelsize', 'labelcolor', 'zorder', 'gridOn', 'tick1On', 'tick2On', 'label1On', 'label2On', 'length', 'direction', 'left', 'bottom', 'right', 'top', 'labelleft', 'labelbottom', 'labelright', 'labeltop', 'labelrotation', 'grid_agg_filter', 'grid_alpha', 'grid_animated', 'grid_antialiased', 'grid_clip_box', 'grid_clip_on', 'grid_clip_path', 'grid_color', 'grid_dash_capstyle', 'grid_dash_joinstyle', 'grid_dashes', 'grid_data', 'grid_drawstyle', 'grid_figure', 'grid_fillstyle', 'grid_gapcolor', 'grid_gid', 'grid_in_layout', 'grid_label', 'grid_linestyle', 'grid_linewidth', 'grid_marker', 'grid_markeredgecolor', 'grid_markeredgewidth', 'grid_markerfacecolor', 'grid_markerfacecoloralt', 'grid_markersize', 'grid_markevery', 'grid_mouseover', 'grid_path_effects', 'grid_picker', 'grid_pickradius', 'grid_rasterized', 'grid_sketch_params', 'grid_snap', 'grid_solid_capstyle', 'grid_solid_joinstyle', 'grid_transform', 'grid_url', 'grid_visible', 'grid_xdata', 'grid_ydata', 'grid_zorder', 'grid_aa', 'grid_c', 'grid_ds', 'grid_ls', 'grid_lw', 'grid_mec', 'grid_mew', 'grid_mfc', 'grid_mfcalt', 'grid_ms']
+2025-10-20 10:55:33,294 - __main__ - INFO - Generating corrected normalized performance comparison...
+2025-10-20 10:55:34,278 - corrected_plot_generator - INFO - Saved corrected normalized comparison: corrected_output/corrected_normalized_performance_comparison.png
+2025-10-20 10:55:34,278 - __main__ - INFO - Generating enhanced performance heatmap...
+2025-10-20 10:55:35,295 - corrected_plot_generator - INFO - Saved enhanced heatmap: corrected_output/enhanced_performance_heatmap.png
+2025-10-20 10:55:35,295 - __main__ - INFO - Generating performance distribution analysis...
+2025-10-20 10:55:36,336 - corrected_plot_generator - INFO - Saved distribution analysis: corrected_output/performance_distribution_analysis.png
+2025-10-20 10:55:36,337 - __main__ - INFO - All corrected plots generated successfully
+2025-10-20 10:55:36,337 - __main__ - INFO - Generating corrected summary report...
+2025-10-20 10:55:36,340 - __main__ - INFO - Corrected summary report saved to: corrected_output/corrected_analysis_summary.txt
+2025-10-20 10:55:36,340 - __main__ - INFO - Saving detailed metrics...
+2025-10-20 10:55:36,348 - __main__ - INFO - Detailed metrics saved to: corrected_output/corrected_detailed_metrics.json
+2025-10-20 10:55:36,348 - __main__ - INFO - Complete corrected analysis finished successfully!
+2025-10-20 10:55:36,348 - __main__ - INFO - Results saved to: /mnt/j/files/A_projects_extension/code_python_mulitiagent/MARL/analysis/corrected_output
+2025-10-20 10:55:50,505 - __main__ - INFO - Starting complete corrected analysis...
+2025-10-20 10:55:50,505 - __main__ - INFO - Loading training data...
+2025-10-20 10:55:50,518 - data_loader - INFO - Loaded 5000 episodes for QMIX - CM_hard from CM_hard_training_data_20251018_161900.json
+2025-10-20 10:55:50,533 - data_loader - INFO - Loaded 5000 episodes for QMIX - DEM_hard from DEM_hard_training_data_20251018_163812.json
+2025-10-20 10:55:50,558 - data_loader - INFO - Loaded 5000 episodes for QMIX - DEM_normal from DEM_normal_training_data_20251018_164956.json
+2025-10-20 10:55:50,572 - data_loader - INFO - Loaded 5000 episodes for QMIX - HRG_ultrafast from HRG_ultra_fast_training_data_20251018_171142.json
+2025-10-20 10:55:50,586 - data_loader - INFO - Loaded 5000 episodes for QMIX - MSFS_hard from MSFS_hard_training_data_20251018_172447.json
+2025-10-20 10:55:50,599 - data_loader - INFO - Loaded 5000 episodes for QMIX - MSFS_normal from MSFS_normal_training_data_20251018_173637.json
+2025-10-20 10:55:50,615 - data_loader - INFO - Loaded 5000 episodes for QMIX - multiwalker from multiwalker_default_training_data_20251018_175918.json
+2025-10-20 10:55:50,622 - data_loader - INFO - Loaded 500 episodes for QMIX - simple_crypto from simple_crypto_default_training_data_20251018_182918.json
+2025-10-20 10:55:50,636 - data_loader - INFO - Loaded 5000 episodes for QMIX - simple_spread from simple_spread_default_training_data_20251018_184342.json
+2025-10-20 10:55:50,651 - data_loader - INFO - Loaded 5000 episodes for IQL - CM_hard from CM_hard_training_data_20251017_171440.json
+2025-10-20 10:55:50,669 - data_loader - INFO - Loaded 5000 episodes for IQL - DEM_hard from DEM_hard_training_data_20251017_172729.json
+2025-10-20 10:55:50,690 - data_loader - INFO - Loaded 5000 episodes for IQL - DEM_normal from DEM_normal_training_data_20251017_174056.json
+2025-10-20 10:55:50,705 - data_loader - INFO - Loaded 5000 episodes for IQL - HRG_ultrafast from HRG_ultra_fast_training_data_20251017_175615.json
+2025-10-20 10:55:50,721 - data_loader - INFO - Loaded 5000 episodes for IQL - MSFS_hard from MSFS_hard_training_data_20251017_180607.json
+2025-10-20 10:55:50,735 - data_loader - INFO - Loaded 5000 episodes for IQL - MSFS_normal from MSFS_normal_training_data_20251017_200054.json
+2025-10-20 10:55:50,751 - data_loader - INFO - Loaded 5000 episodes for IQL - multiwalker from multiwalker_default_training_data_20251017_203204.json
+2025-10-20 10:55:50,757 - data_loader - INFO - Loaded 500 episodes for IQL - simple_crypto from simple_crypto_default_training_data_20251017_203524.json
+2025-10-20 10:55:50,771 - data_loader - INFO - Loaded 5000 episodes for IQL - simple_spread from simple_spread_default_training_data_20251017_204254.json
+2025-10-20 10:55:50,784 - data_loader - INFO - Loaded 5000 episodes for VDN - CM_hard from CM_hard_training_data_20251018_003101.json
+2025-10-20 10:55:50,797 - data_loader - INFO - Loaded 5000 episodes for VDN - DEM_hard from DEM_hard_training_data_20251018_004455.json
+2025-10-20 10:55:50,810 - data_loader - INFO - Loaded 5000 episodes for VDN - DEM_normal from DEM_normal_training_data_20251018_010636.json
+2025-10-20 10:55:50,824 - data_loader - INFO - Loaded 5000 episodes for VDN - HRG_ultrafast from HRG_ultra_fast_training_data_20251018_103744.json
+2025-10-20 10:55:50,841 - data_loader - INFO - Loaded 5000 episodes for VDN - MSFS_hard from MSFS_hard_training_data_20251018_104635.json
+2025-10-20 10:55:50,854 - data_loader - INFO - Loaded 5000 episodes for VDN - MSFS_normal from MSFS_normal_training_data_20251018_105525.json
+2025-10-20 10:55:50,867 - data_loader - INFO - Loaded 5000 episodes for VDN - multiwalker from multiwalker_default_training_data_20251018_111502.json
+2025-10-20 10:55:50,875 - data_loader - INFO - Loaded 500 episodes for VDN - simple_crypto from simple_crypto_default_training_data_20251018_114433.json
+2025-10-20 10:55:50,889 - data_loader - INFO - Loaded 5000 episodes for VDN - simple_spread from simple_spread_default_training_data_20251018_115504.json
+2025-10-20 10:55:50,919 - data_loader - INFO - Loaded 5000 episodes for COMA - CM_hard from CM_hard_training_data_20251018_133914.json
+2025-10-20 10:55:50,994 - data_loader - INFO - Loaded 5000 episodes for COMA - DEM_hard from DEM_hard_training_data_20251018_135601.json
+2025-10-20 10:55:51,027 - data_loader - INFO - Loaded 5000 episodes for COMA - DEM_normal from DEM_normal_training_data_20251018_141302.json
+2025-10-20 10:55:51,069 - data_loader - INFO - Loaded 5000 episodes for COMA - HRG_ultrafast from HRG_ultra_fast_training_data_20251018_142532.json
+2025-10-20 10:55:51,126 - data_loader - INFO - Loaded 5000 episodes for COMA - MSFS_hard from MSFS_hard_training_data_20251018_143934.json
+2025-10-20 10:55:51,156 - data_loader - INFO - Loaded 5000 episodes for COMA - MSFS_normal from MSFS_normal_training_data_20251018_145147.json
+2025-10-20 10:55:51,182 - data_loader - INFO - Loaded 5000 episodes for COMA - multiwalker from multiwalker_default_training_data_20251018_180115.json
+2025-10-20 10:55:51,213 - data_loader - INFO - Loaded 500 episodes for COMA - simple_crypto from simple_crypto_default_training_data_20251018_182859.json
+2025-10-20 10:55:51,257 - data_loader - INFO - Loaded 5000 episodes for COMA - simple_spread from simple_spread_default_training_data_20251018_184242.json
+2025-10-20 10:55:51,279 - data_loader - INFO - Loaded 5000 episodes for MADDPG - CM_hard from CM_hard_training_data_20251018_232123.json
+2025-10-20 10:55:51,295 - data_loader - INFO - Loaded 5000 episodes for MADDPG - DEM_hard from DEM_hard_training_data_20251018_233808.json
+2025-10-20 10:55:51,311 - data_loader - INFO - Loaded 5000 episodes for MADDPG - DEM_normal from DEM_normal_training_data_20251019_000821.json
+2025-10-20 10:55:51,328 - data_loader - INFO - Loaded 5000 episodes for MADDPG - HRG_ultrafast from HRG_ultra_fast_training_data_20251019_002802.json
+2025-10-20 10:55:51,344 - data_loader - INFO - Loaded 5000 episodes for MADDPG - MSFS_hard from MSFS_hard_training_data_20251019_011030.json
+2025-10-20 10:55:51,357 - data_loader - INFO - Loaded 5000 episodes for MADDPG - MSFS_normal from MSFS_normal_training_data_20251019_013845.json
+2025-10-20 10:55:51,371 - data_loader - INFO - Loaded 5000 episodes for MADDPG - multiwalker from multiwalker_default_training_data_20251019_105158.json
+2025-10-20 10:55:51,402 - data_loader - INFO - Loaded 500 episodes for MADDPG - simple_crypto from simple_crypto_default_training_data_20251019_110116.json
+2025-10-20 10:55:51,426 - data_loader - INFO - Loaded 5000 episodes for MADDPG - simple_spread from simple_spread_default_training_data_20251019_111404.json
+2025-10-20 10:55:51,438 - data_loader - INFO - Loaded 5000 episodes for MAPPO - CM_hard from CM_hard_training_data_20251019_003218.json
+2025-10-20 10:55:51,449 - data_loader - INFO - Loaded 5000 episodes for MAPPO - DEM_hard from DEM_hard_training_data_20251019_011802.json
+2025-10-20 10:55:51,465 - data_loader - INFO - Loaded 5000 episodes for MAPPO - DEM_normal from DEM_normal_training_data_20251019_014202.json
+2025-10-20 10:55:51,481 - data_loader - INFO - Loaded 5000 episodes for MAPPO - HRG_ultrafast from HRG_ultra_fast_training_data_20251019_114843.json
+2025-10-20 10:55:51,496 - data_loader - INFO - Loaded 5000 episodes for MAPPO - MSFS_hard from MSFS_hard_training_data_20251019_121536.json
+2025-10-20 10:55:51,510 - data_loader - INFO - Loaded 5000 episodes for MAPPO - MSFS_normal from MSFS_normal_training_data_20251020_003859.json
+2025-10-20 10:55:51,526 - data_loader - INFO - Loaded 5000 episodes for MAPPO - multiwalker from multiwalker_default_training_data_20251020_012522.json
+2025-10-20 10:55:51,539 - data_loader - INFO - Loaded 500 episodes for MAPPO - simple_crypto from simple_crypto_default_training_data_20251020_013110.json
+2025-10-20 10:55:51,553 - data_loader - INFO - Loaded 5000 episodes for MAPPO - simple_spread from simple_spread_default_training_data_20251020_014521.json
+2025-10-20 10:55:51,553 - data_loader - INFO - 
+============================================================
+2025-10-20 10:55:51,553 - data_loader - INFO - Data Loading Summary
+2025-10-20 10:55:51,553 - data_loader - INFO - ============================================================
+2025-10-20 10:55:51,553 - data_loader - INFO - QMIX: 9 environments loaded
+2025-10-20 10:55:51,553 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 10:55:51,553 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 10:55:51,553 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 10:55:51,554 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 10:55:51,554 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 10:55:51,554 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 10:55:51,554 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 10:55:51,554 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 10:55:51,554 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 10:55:51,554 - data_loader - INFO - IQL: 9 environments loaded
+2025-10-20 10:55:51,554 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 10:55:51,555 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 10:55:51,555 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 10:55:51,555 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 10:55:51,555 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 10:55:51,555 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 10:55:51,556 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 10:55:51,556 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 10:55:51,556 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 10:55:51,556 - data_loader - INFO - VDN: 9 environments loaded
+2025-10-20 10:55:51,556 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 10:55:51,556 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 10:55:51,557 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 10:55:51,557 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 10:55:51,557 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 10:55:51,557 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 10:55:51,557 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 10:55:51,557 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 10:55:51,557 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 10:55:51,557 - data_loader - INFO - COMA: 9 environments loaded
+2025-10-20 10:55:51,558 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 10:55:51,558 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 10:55:51,558 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 10:55:51,558 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 10:55:51,558 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 10:55:51,558 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 10:55:51,558 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 10:55:51,558 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 10:55:51,558 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 10:55:51,559 - data_loader - INFO - MADDPG: 9 environments loaded
+2025-10-20 10:55:51,559 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 10:55:51,559 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 10:55:51,559 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 10:55:51,559 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 10:55:51,559 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 10:55:51,560 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 10:55:51,560 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 10:55:51,560 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 10:55:51,560 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 10:55:51,560 - data_loader - INFO - MAPPO: 9 environments loaded
+2025-10-20 10:55:51,560 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 10:55:51,560 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 10:55:51,560 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 10:55:51,561 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 10:55:51,561 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 10:55:51,561 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 10:55:51,561 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 10:55:51,561 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 10:55:51,561 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 10:55:51,561 - data_loader - INFO - ============================================================
+2025-10-20 10:55:51,561 - __main__ - INFO - Loaded data for 6 algorithms
+2025-10-20 10:55:51,561 - __main__ - INFO - Analyzing metrics...
+2025-10-20 10:55:51,639 - __main__ - INFO - Metric analysis complete
+2025-10-20 10:55:51,639 - __main__ - INFO - Generating corrected plots...
+2025-10-20 10:55:51,639 - __main__ - INFO - Generating corrected learning curves...
+2025-10-20 10:55:57,028 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_CM_hard.png
+2025-10-20 10:56:02,375 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_DEM_hard.png
+2025-10-20 10:56:07,771 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_DEM_normal.png
+2025-10-20 10:56:12,956 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_HRG_ultrafast.png
+2025-10-20 10:56:15,451 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_MSFS_hard.png
+2025-10-20 10:56:20,449 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_MSFS_normal.png
+2025-10-20 10:56:25,664 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_multiwalker.png
+2025-10-20 10:56:26,976 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_simple_crypto.png
+2025-10-20 10:56:32,145 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_simple_spread.png
+2025-10-20 10:56:32,146 - __main__ - INFO - Generating corrected normalized performance comparison...
+2025-10-20 10:56:33,041 - corrected_plot_generator - INFO - Saved corrected normalized comparison: corrected_output/corrected_normalized_performance_comparison.png
+2025-10-20 10:56:33,042 - __main__ - INFO - Generating enhanced performance heatmap...
+2025-10-20 10:56:34,037 - corrected_plot_generator - INFO - Saved enhanced heatmap: corrected_output/enhanced_performance_heatmap.png
+2025-10-20 10:56:34,038 - __main__ - INFO - Generating performance distribution analysis...
+2025-10-20 10:56:34,997 - corrected_plot_generator - INFO - Saved distribution analysis: corrected_output/performance_distribution_analysis.png
+2025-10-20 10:56:34,998 - __main__ - INFO - All corrected plots generated successfully
+2025-10-20 10:56:34,998 - __main__ - INFO - Generating corrected summary report...
+2025-10-20 10:56:35,001 - __main__ - INFO - Corrected summary report saved to: corrected_output/corrected_analysis_summary.txt
+2025-10-20 10:56:35,001 - __main__ - INFO - Saving detailed metrics...
+2025-10-20 10:56:35,008 - __main__ - INFO - Detailed metrics saved to: corrected_output/corrected_detailed_metrics.json
+2025-10-20 10:56:35,008 - __main__ - INFO - Complete corrected analysis finished successfully!
+2025-10-20 10:56:35,008 - __main__ - INFO - Results saved to: /mnt/j/files/A_projects_extension/code_python_mulitiagent/MARL/analysis/corrected_output
+2025-10-20 11:25:32,377 - __main__ - INFO - Starting complete corrected analysis...
+2025-10-20 11:25:32,378 - __main__ - INFO - Loading training data...
+2025-10-20 11:25:32,396 - data_loader - INFO - Loaded 5000 episodes for QMIX - CM_hard from CM_hard_training_data_20251018_161900.json
+2025-10-20 11:25:32,410 - data_loader - INFO - Loaded 5000 episodes for QMIX - DEM_hard from DEM_hard_training_data_20251018_163812.json
+2025-10-20 11:25:32,425 - data_loader - INFO - Loaded 5000 episodes for QMIX - DEM_normal from DEM_normal_training_data_20251018_164956.json
+2025-10-20 11:25:32,439 - data_loader - INFO - Loaded 5000 episodes for QMIX - HRG_ultrafast from HRG_ultra_fast_training_data_20251018_171142.json
+2025-10-20 11:25:32,457 - data_loader - INFO - Loaded 5000 episodes for QMIX - MSFS_hard from MSFS_hard_training_data_20251018_172447.json
+2025-10-20 11:25:32,471 - data_loader - INFO - Loaded 5000 episodes for QMIX - MSFS_normal from MSFS_normal_training_data_20251018_173637.json
+2025-10-20 11:25:32,486 - data_loader - INFO - Loaded 5000 episodes for QMIX - multiwalker from multiwalker_default_training_data_20251018_175918.json
+2025-10-20 11:25:32,496 - data_loader - INFO - Loaded 500 episodes for QMIX - simple_crypto from simple_crypto_default_training_data_20251018_182918.json
+2025-10-20 11:25:32,509 - data_loader - INFO - Loaded 5000 episodes for QMIX - simple_spread from simple_spread_default_training_data_20251018_184342.json
+2025-10-20 11:25:32,535 - data_loader - INFO - Loaded 5000 episodes for IQL - CM_hard from CM_hard_training_data_20251017_171440.json
+2025-10-20 11:25:32,552 - data_loader - INFO - Loaded 5000 episodes for IQL - DEM_hard from DEM_hard_training_data_20251017_172729.json
+2025-10-20 11:25:32,569 - data_loader - INFO - Loaded 5000 episodes for IQL - DEM_normal from DEM_normal_training_data_20251017_174056.json
+2025-10-20 11:25:32,584 - data_loader - INFO - Loaded 5000 episodes for IQL - HRG_ultrafast from HRG_ultra_fast_training_data_20251017_175615.json
+2025-10-20 11:25:32,599 - data_loader - INFO - Loaded 5000 episodes for IQL - MSFS_hard from MSFS_hard_training_data_20251017_180607.json
+2025-10-20 11:25:32,612 - data_loader - INFO - Loaded 5000 episodes for IQL - MSFS_normal from MSFS_normal_training_data_20251017_200054.json
+2025-10-20 11:25:32,626 - data_loader - INFO - Loaded 5000 episodes for IQL - multiwalker from multiwalker_default_training_data_20251017_203204.json
+2025-10-20 11:25:32,635 - data_loader - INFO - Loaded 500 episodes for IQL - simple_crypto from simple_crypto_default_training_data_20251017_203524.json
+2025-10-20 11:25:32,648 - data_loader - INFO - Loaded 5000 episodes for IQL - simple_spread from simple_spread_default_training_data_20251017_204254.json
+2025-10-20 11:25:32,666 - data_loader - INFO - Loaded 5000 episodes for VDN - CM_hard from CM_hard_training_data_20251018_003101.json
+2025-10-20 11:25:32,683 - data_loader - INFO - Loaded 5000 episodes for VDN - DEM_hard from DEM_hard_training_data_20251018_004455.json
+2025-10-20 11:25:32,696 - data_loader - INFO - Loaded 5000 episodes for VDN - DEM_normal from DEM_normal_training_data_20251018_010636.json
+2025-10-20 11:25:32,711 - data_loader - INFO - Loaded 5000 episodes for VDN - HRG_ultrafast from HRG_ultra_fast_training_data_20251018_103744.json
+2025-10-20 11:25:32,726 - data_loader - INFO - Loaded 5000 episodes for VDN - MSFS_hard from MSFS_hard_training_data_20251018_104635.json
+2025-10-20 11:25:32,745 - data_loader - INFO - Loaded 5000 episodes for VDN - MSFS_normal from MSFS_normal_training_data_20251018_105525.json
+2025-10-20 11:25:32,761 - data_loader - INFO - Loaded 5000 episodes for VDN - multiwalker from multiwalker_default_training_data_20251018_111502.json
+2025-10-20 11:25:32,768 - data_loader - INFO - Loaded 500 episodes for VDN - simple_crypto from simple_crypto_default_training_data_20251018_114433.json
+2025-10-20 11:25:32,791 - data_loader - INFO - Loaded 5000 episodes for VDN - simple_spread from simple_spread_default_training_data_20251018_115504.json
+2025-10-20 11:25:32,875 - data_loader - INFO - Loaded 5000 episodes for COMA - CM_hard from CM_hard_training_data_20251018_133914.json
+2025-10-20 11:25:32,941 - data_loader - INFO - Loaded 5000 episodes for COMA - DEM_hard from DEM_hard_training_data_20251018_135601.json
+2025-10-20 11:25:32,976 - data_loader - INFO - Loaded 5000 episodes for COMA - DEM_normal from DEM_normal_training_data_20251018_141302.json
+2025-10-20 11:25:33,003 - data_loader - INFO - Loaded 5000 episodes for COMA - HRG_ultrafast from HRG_ultra_fast_training_data_20251018_142532.json
+2025-10-20 11:25:33,038 - data_loader - INFO - Loaded 5000 episodes for COMA - MSFS_hard from MSFS_hard_training_data_20251018_143934.json
+2025-10-20 11:25:33,094 - data_loader - INFO - Loaded 5000 episodes for COMA - MSFS_normal from MSFS_normal_training_data_20251018_145147.json
+2025-10-20 11:25:33,154 - data_loader - INFO - Loaded 5000 episodes for COMA - multiwalker from multiwalker_default_training_data_20251018_180115.json
+2025-10-20 11:25:33,176 - data_loader - INFO - Loaded 500 episodes for COMA - simple_crypto from simple_crypto_default_training_data_20251018_182859.json
+2025-10-20 11:25:33,208 - data_loader - INFO - Loaded 5000 episodes for COMA - simple_spread from simple_spread_default_training_data_20251018_184242.json
+2025-10-20 11:25:33,225 - data_loader - INFO - Loaded 5000 episodes for MADDPG - CM_hard from CM_hard_training_data_20251018_232123.json
+2025-10-20 11:25:33,242 - data_loader - INFO - Loaded 5000 episodes for MADDPG - DEM_hard from DEM_hard_training_data_20251018_233808.json
+2025-10-20 11:25:33,258 - data_loader - INFO - Loaded 5000 episodes for MADDPG - DEM_normal from DEM_normal_training_data_20251019_000821.json
+2025-10-20 11:25:33,275 - data_loader - INFO - Loaded 5000 episodes for MADDPG - HRG_ultrafast from HRG_ultra_fast_training_data_20251019_002802.json
+2025-10-20 11:25:33,292 - data_loader - INFO - Loaded 5000 episodes for MADDPG - MSFS_hard from MSFS_hard_training_data_20251019_011030.json
+2025-10-20 11:25:33,313 - data_loader - INFO - Loaded 5000 episodes for MADDPG - MSFS_normal from MSFS_normal_training_data_20251019_013845.json
+2025-10-20 11:25:33,335 - data_loader - INFO - Loaded 5000 episodes for MADDPG - multiwalker from multiwalker_default_training_data_20251019_105158.json
+2025-10-20 11:25:33,344 - data_loader - INFO - Loaded 500 episodes for MADDPG - simple_crypto from simple_crypto_default_training_data_20251019_110116.json
+2025-10-20 11:25:33,360 - data_loader - INFO - Loaded 5000 episodes for MADDPG - simple_spread from simple_spread_default_training_data_20251019_111404.json
+2025-10-20 11:25:33,375 - data_loader - INFO - Loaded 5000 episodes for MAPPO - CM_hard from CM_hard_training_data_20251019_003218.json
+2025-10-20 11:25:33,387 - data_loader - INFO - Loaded 5000 episodes for MAPPO - DEM_hard from DEM_hard_training_data_20251019_011802.json
+2025-10-20 11:25:33,400 - data_loader - INFO - Loaded 5000 episodes for MAPPO - DEM_normal from DEM_normal_training_data_20251019_014202.json
+2025-10-20 11:25:33,412 - data_loader - INFO - Loaded 5000 episodes for MAPPO - HRG_ultrafast from HRG_ultra_fast_training_data_20251019_114843.json
+2025-10-20 11:25:33,430 - data_loader - INFO - Loaded 5000 episodes for MAPPO - MSFS_hard from MSFS_hard_training_data_20251019_121536.json
+2025-10-20 11:25:33,447 - data_loader - INFO - Loaded 5000 episodes for MAPPO - MSFS_normal from MSFS_normal_training_data_20251020_003859.json
+2025-10-20 11:25:33,467 - data_loader - INFO - Loaded 5000 episodes for MAPPO - multiwalker from multiwalker_default_training_data_20251020_012522.json
+2025-10-20 11:25:33,473 - data_loader - INFO - Loaded 500 episodes for MAPPO - simple_crypto from simple_crypto_default_training_data_20251020_013110.json
+2025-10-20 11:25:33,487 - data_loader - INFO - Loaded 5000 episodes for MAPPO - simple_spread from simple_spread_default_training_data_20251020_014521.json
+2025-10-20 11:25:33,487 - data_loader - INFO - 
+============================================================
+2025-10-20 11:25:33,487 - data_loader - INFO - Data Loading Summary
+2025-10-20 11:25:33,487 - data_loader - INFO - ============================================================
+2025-10-20 11:25:33,488 - data_loader - INFO - QMIX: 9 environments loaded
+2025-10-20 11:25:33,488 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 11:25:33,488 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 11:25:33,488 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 11:25:33,488 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 11:25:33,488 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 11:25:33,488 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 11:25:33,489 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 11:25:33,489 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 11:25:33,489 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 11:25:33,489 - data_loader - INFO - IQL: 9 environments loaded
+2025-10-20 11:25:33,489 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 11:25:33,489 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 11:25:33,489 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 11:25:33,489 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 11:25:33,490 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 11:25:33,490 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 11:25:33,490 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 11:25:33,490 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 11:25:33,490 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 11:25:33,490 - data_loader - INFO - VDN: 9 environments loaded
+2025-10-20 11:25:33,490 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 11:25:33,491 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 11:25:33,491 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 11:25:33,491 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 11:25:33,491 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 11:25:33,491 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 11:25:33,491 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 11:25:33,491 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 11:25:33,492 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 11:25:33,492 - data_loader - INFO - COMA: 9 environments loaded
+2025-10-20 11:25:33,492 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 11:25:33,492 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 11:25:33,492 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 11:25:33,492 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 11:25:33,492 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 11:25:33,492 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 11:25:33,493 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 11:25:33,493 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 11:25:33,493 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 11:25:33,493 - data_loader - INFO - MADDPG: 9 environments loaded
+2025-10-20 11:25:33,493 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 11:25:33,493 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 11:25:33,493 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 11:25:33,493 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 11:25:33,493 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 11:25:33,494 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 11:25:33,494 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 11:25:33,494 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 11:25:33,494 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 11:25:33,494 - data_loader - INFO - MAPPO: 9 environments loaded
+2025-10-20 11:25:33,494 - data_loader - INFO -   - CM_hard: 5000 episodes
+2025-10-20 11:25:33,494 - data_loader - INFO -   - DEM_hard: 5000 episodes
+2025-10-20 11:25:33,494 - data_loader - INFO -   - DEM_normal: 5000 episodes
+2025-10-20 11:25:33,495 - data_loader - INFO -   - HRG_ultrafast: 5000 episodes
+2025-10-20 11:25:33,495 - data_loader - INFO -   - MSFS_hard: 5000 episodes
+2025-10-20 11:25:33,495 - data_loader - INFO -   - MSFS_normal: 5000 episodes
+2025-10-20 11:25:33,495 - data_loader - INFO -   - multiwalker: 5000 episodes
+2025-10-20 11:25:33,495 - data_loader - INFO -   - simple_crypto: 500 episodes
+2025-10-20 11:25:33,495 - data_loader - INFO -   - simple_spread: 5000 episodes
+2025-10-20 11:25:33,496 - data_loader - INFO - ============================================================
+2025-10-20 11:25:33,496 - __main__ - INFO - Loaded data for 6 algorithms
+2025-10-20 11:25:33,496 - __main__ - INFO - Analyzing metrics...
+2025-10-20 11:25:33,579 - __main__ - INFO - Metric analysis complete
+2025-10-20 11:25:33,580 - __main__ - INFO - Generating corrected plots...
+2025-10-20 11:25:33,580 - __main__ - INFO - Generating corrected learning curves...
+2025-10-20 11:25:38,930 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_CM_hard.png
+2025-10-20 11:25:41,603 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_DEM_hard.png
+2025-10-20 11:25:46,890 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_DEM_normal.png
+2025-10-20 11:25:52,032 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_HRG_ultrafast.png
+2025-10-20 11:25:56,919 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_MSFS_hard.png
+2025-10-20 11:26:01,825 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_MSFS_normal.png
+2025-10-20 11:26:07,267 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_multiwalker.png
+2025-10-20 11:26:08,535 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_simple_crypto.png
+2025-10-20 11:26:11,097 - corrected_plot_generator - INFO - Saved corrected plot: corrected_output/corrected_learning_curves_simple_spread.png
+2025-10-20 11:26:11,098 - __main__ - INFO - Generating corrected normalized performance comparison...
+2025-10-20 11:26:11,997 - corrected_plot_generator - INFO - Saved corrected normalized comparison: corrected_output/corrected_normalized_performance_comparison.png
+2025-10-20 11:26:11,997 - __main__ - INFO - Generating enhanced performance heatmap...
+2025-10-20 11:26:13,072 - corrected_plot_generator - INFO - Saved enhanced heatmap: corrected_output/enhanced_performance_heatmap.png
+2025-10-20 11:26:13,072 - __main__ - INFO - Generating performance distribution analysis...
+2025-10-20 11:26:14,040 - corrected_plot_generator - INFO - Saved distribution analysis: corrected_output/performance_distribution_analysis.png
+2025-10-20 11:26:14,041 - __main__ - INFO - All corrected plots generated successfully
+2025-10-20 11:26:14,042 - __main__ - INFO - Generating corrected summary report...
+2025-10-20 11:26:14,047 - __main__ - INFO - Corrected summary report saved to: corrected_output/corrected_analysis_summary.txt
+2025-10-20 11:26:14,047 - __main__ - INFO - Saving detailed metrics...
+2025-10-20 11:26:14,064 - __main__ - INFO - Detailed metrics saved to: corrected_output/corrected_detailed_metrics.json
+2025-10-20 11:26:14,065 - __main__ - INFO - Complete corrected analysis finished successfully!
+2025-10-20 11:26:14,065 - __main__ - INFO - Results saved to: /mnt/j/files/A_projects_extension/code_python_mulitiagent/MARL/analysis/corrected_output

@@ -1,0 +1,83 @@
+# MARL Environment Requirements (with SMAC)
+# Compatible with Ubuntu and Python 3.8+
+
+# Core numerical computing
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Machine learning framework (PyTorch)
+# CPU version - for systems without CUDA support
+torch>=2.0.0
+torchvision>=0.15.0
+
+# If you have CUDA support, replace the above with:
+# torch>=2.0.0+cu118
+# torchvision>=0.15.0+cu118
+# Or install with: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# Visualization and plotting
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Game engine and rendering
+pygame>=2.1.0
+
+# Reinforcement learning environment interface
+gymnasium>=0.26.0
+
+# Progress bars and utilities
+tqdm>=4.64.0
+
+# Configuration management
+pyyaml>=6.0
+
+# Logging and debugging
+colorlog>=6.7.0
+
+# StarCraft II Multi-Agent Challenge (SMAC) dependencies
+# Note: SMAC requires additional setup beyond pip installation
+# See README.md for detailed SMAC installation instructions
+
+# SMAC library - install from source after setting up StarCraft II
+# git clone https://github.com/oxwhirl/smac.git
+# cd smac
+# pip install -e .
+
+# StarCraft II game dependencies (Ubuntu-specific)
+# These need to be installed manually:
+# sudo apt-get update
+# sudo apt-get install -y libpython3.8-dev libsm6 libxext6 libxrender-dev libgl1-mesa-glx
+
+# Protocol buffers (required by SMAC)
+protobuf>=3.20.0
+
+# Additional dependencies for SMAC
+absl-py>=1.0.0
+gym>=0.21.0
+
+# Optional: For enhanced visualization (not required but recommended)
+# opencv-python>=4.5.0
+# pillow>=8.3.0
+
+# Development and testing (optional)
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
+
+# Installation Instructions for SMAC:
+# 1. Install StarCraft II (Linux version)
+#    - Download from: https://starcraft2.com/en-us/legacy/
+#    - Extract to ~/.StarCraftII/
+#
+# 2. Install SMAC maps
+#    - Download from: https://github.com/oxwhirl/smac-maps
+#    - Extract to ~/.StarCraftII/Maps/
+#
+# 3. Install SMAC library
+#    git clone https://github.com/oxwhirl/smac.git
+#    cd smac
+#    pip install -e .
+#
+# 4. Set environment variable
+#    export SC2PATH=~/.StarCraftII
+#
+# For detailed instructions, see the README.md file.
