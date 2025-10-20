@@ -499,7 +499,7 @@ cat corrected_output/corrected_detailed_metrics.json
 ```bibtex
 @misc{marlco2024,
   title={MARLCO: Multi-Agent Reinforcement Learning Cooperation Platform},
-  author={sswun},
+  author={Shuwei Sun},
   year={2024},
   url={https://github.com/sswun/marlco}
 }
