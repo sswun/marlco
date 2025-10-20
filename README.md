@@ -499,7 +499,7 @@ If you use this platform in your research, please cite:
 ```bibtex
 @misc{marlco2024,
   title={MARLCO: Multi-Agent Reinforcement Learning Cooperation Platform},
-  author={sswun},
+  author={Shuwei Sun},
   year={2024},
   url={https://github.com/sswun/marlco}
 }
