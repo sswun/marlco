@@ -53,7 +53,7 @@ marlco/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/marlco.git
+git clone https://github.com/sswun/marlco.git
 cd marlco
 
 # Install dependencies
