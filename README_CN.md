@@ -53,7 +53,7 @@ marlco/
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/marlco.git
+git clone https://github.com/sswun/marlco.git
 cd marlco
 
 # 安装依赖
